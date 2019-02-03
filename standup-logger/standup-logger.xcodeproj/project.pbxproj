@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C6DB3522076ECB00DE0E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DB3422076ECB00DE0E76 /* AppDelegate.swift */; };
+		66C6DB3722076ECB00DE0E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DB3622076ECB00DE0E76 /* ViewController.swift */; };
+		66C6DB3A22076ECB00DE0E76 /* standup_logger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DB3822076ECB00DE0E76 /* standup_logger.xcdatamodeld */; };
+		66C6DB3C22076ECB00DE0E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C6DB3B22076ECB00DE0E76 /* Assets.xcassets */; };
+		66C6DB3F22076ECB00DE0E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C6DB3D22076ECB00DE0E76 /* Main.storyboard */; };
+		66C6DB4B22076ECB00DE0E76 /* standup_loggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DB4A22076ECB00DE0E76 /* standup_loggerTests.swift */; };
+		66C6DB5622076ECB00DE0E76 /* standup_loggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DB5522076ECB00DE0E76 /* standup_loggerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C6DB4722076ECB00DE0E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C6DB2922076ECB00DE0E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C6DB3022076ECB00DE0E76;
+			remoteInfo = "standup-logger";
+		};
+		66C6DB5222076ECB00DE0E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C6DB2922076ECB00DE0E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C6DB3022076ECB00DE0E76;
+			remoteInfo = "standup-logger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66C6DB3122076ECB00DE0E76 /* standup-logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "standup-logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C6DB3422076ECB00DE0E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66C6DB3622076ECB00DE0E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66C6DB3922076ECB00DE0E76 /* standup_logger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = standup_logger.xcdatamodel; sourceTree = "<group>"; };
+		66C6DB3B22076ECB00DE0E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C6DB3E22076ECB00DE0E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C6DB4022076ECB00DE0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C6DB4122076ECB00DE0E76 /* standup_logger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = standup_logger.entitlements; sourceTree = "<group>"; };
+		66C6DB4622076ECB00DE0E76 /* standup-loggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "standup-loggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C6DB4A22076ECB00DE0E76 /* standup_loggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standup_loggerTests.swift; sourceTree = "<group>"; };
+		66C6DB4C22076ECB00DE0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C6DB5122076ECB00DE0E76 /* standup-loggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "standup-loggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C6DB5522076ECB00DE0E76 /* standup_loggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standup_loggerUITests.swift; sourceTree = "<group>"; };
+		66C6DB5722076ECB00DE0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C6DB2E22076ECB00DE0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C6DB4322076ECB00DE0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C6DB4E22076ECB00DE0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C6DB2822076ECB00DE0E76 = {
+			isa = PBXGroup;
+			children = (
+				66C6DB3322076ECB00DE0E76 /* standup-logger */,
+				66C6DB4922076ECB00DE0E76 /* standup-loggerTests */,
+				66C6DB5422076ECB00DE0E76 /* standup-loggerUITests */,
+				66C6DB3222076ECB00DE0E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66C6DB3222076ECB00DE0E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C6DB3122076ECB00DE0E76 /* standup-logger.app */,
+				66C6DB4622076ECB00DE0E76 /* standup-loggerTests.xctest */,
+				66C6DB5122076ECB00DE0E76 /* standup-loggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C6DB3322076ECB00DE0E76 /* standup-logger */ = {
+			isa = PBXGroup;
+			children = (
+				66C6DB3422076ECB00DE0E76 /* AppDelegate.swift */,
+				66C6DB3622076ECB00DE0E76 /* ViewController.swift */,
+				66C6DB3B22076ECB00DE0E76 /* Assets.xcassets */,
+				66C6DB3D22076ECB00DE0E76 /* Main.storyboard */,
+				66C6DB4022076ECB00DE0E76 /* Info.plist */,
+				66C6DB4122076ECB00DE0E76 /* standup_logger.entitlements */,
+				66C6DB3822076ECB00DE0E76 /* standup_logger.xcdatamodeld */,
+			);
+			path = "standup-logger";
+			sourceTree = "<group>";
+		};
+		66C6DB4922076ECB00DE0E76 /* standup-loggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66C6DB4A22076ECB00DE0E76 /* standup_loggerTests.swift */,
+				66C6DB4C22076ECB00DE0E76 /* Info.plist */,
+			);
+			path = "standup-loggerTests";
+			sourceTree = "<group>";
+		};
+		66C6DB5422076ECB00DE0E76 /* standup-loggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C6DB5522076ECB00DE0E76 /* standup_loggerUITests.swift */,
+				66C6DB5722076ECB00DE0E76 /* Info.plist */,
+			);
+			path = "standup-loggerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C6DB3022076ECB00DE0E76 /* standup-logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C6DB5A22076ECB00DE0E76 /* Build configuration list for PBXNativeTarget "standup-logger" */;
+			buildPhases = (
+				66C6DB2D22076ECB00DE0E76 /* Sources */,
+				66C6DB2E22076ECB00DE0E76 /* Frameworks */,
+				66C6DB2F22076ECB00DE0E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "standup-logger";
+			productName = "standup-logger";
+			productReference = 66C6DB3122076ECB00DE0E76 /* standup-logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C6DB4522076ECB00DE0E76 /* standup-loggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C6DB5D22076ECB00DE0E76 /* Build configuration list for PBXNativeTarget "standup-loggerTests" */;
+			buildPhases = (
+				66C6DB4222076ECB00DE0E76 /* Sources */,
+				66C6DB4322076ECB00DE0E76 /* Frameworks */,
+				66C6DB4422076ECB00DE0E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C6DB4822076ECB00DE0E76 /* PBXTargetDependency */,
+			);
+			name = "standup-loggerTests";
+			productName = "standup-loggerTests";
+			productReference = 66C6DB4622076ECB00DE0E76 /* standup-loggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C6DB5022076ECB00DE0E76 /* standup-loggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C6DB6022076ECB00DE0E76 /* Build configuration list for PBXNativeTarget "standup-loggerUITests" */;
+			buildPhases = (
+				66C6DB4D22076ECB00DE0E76 /* Sources */,
+				66C6DB4E22076ECB00DE0E76 /* Frameworks */,
+				66C6DB4F22076ECB00DE0E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C6DB5322076ECB00DE0E76 /* PBXTargetDependency */,
+			);
+			name = "standup-loggerUITests";
+			productName = "standup-loggerUITests";
+			productReference = 66C6DB5122076ECB00DE0E76 /* standup-loggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C6DB2922076ECB00DE0E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rob Drimmie";
+				TargetAttributes = {
+					66C6DB3022076ECB00DE0E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					66C6DB4522076ECB00DE0E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C6DB3022076ECB00DE0E76;
+					};
+					66C6DB5022076ECB00DE0E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C6DB3022076ECB00DE0E76;
+					};
+				};
+			};
+			buildConfigurationList = 66C6DB2C22076ECB00DE0E76 /* Build configuration list for PBXProject "standup-logger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C6DB2822076ECB00DE0E76;
+			productRefGroup = 66C6DB3222076ECB00DE0E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C6DB3022076ECB00DE0E76 /* standup-logger */,
+				66C6DB4522076ECB00DE0E76 /* standup-loggerTests */,
+				66C6DB5022076ECB00DE0E76 /* standup-loggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C6DB2F22076ECB00DE0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C6DB3C22076ECB00DE0E76 /* Assets.xcassets in Resources */,
+				66C6DB3F22076ECB00DE0E76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C6DB4422076ECB00DE0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C6DB4F22076ECB00DE0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C6DB2D22076ECB00DE0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C6DB3A22076ECB00DE0E76 /* standup_logger.xcdatamodeld in Sources */,
+				66C6DB3722076ECB00DE0E76 /* ViewController.swift in Sources */,
+				66C6DB3522076ECB00DE0E76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C6DB4222076ECB00DE0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C6DB4B22076ECB00DE0E76 /* standup_loggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C6DB4D22076ECB00DE0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C6DB5622076ECB00DE0E76 /* standup_loggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C6DB4822076ECB00DE0E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C6DB3022076ECB00DE0E76 /* standup-logger */;
+			targetProxy = 66C6DB4722076ECB00DE0E76 /* PBXContainerItemProxy */;
+		};
+		66C6DB5322076ECB00DE0E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C6DB3022076ECB00DE0E76 /* standup-logger */;
+			targetProxy = 66C6DB5222076ECB00DE0E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C6DB3D22076ECB00DE0E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C6DB3E22076ECB00DE0E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C6DB5822076ECB00DE0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66C6DB5922076ECB00DE0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		66C6DB5B22076ECB00DE0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "standup-logger/standup_logger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "standup-logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.drimmie.standup-logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		66C6DB5C22076ECB00DE0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "standup-logger/standup_logger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "standup-logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.drimmie.standup-logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		66C6DB5E22076ECB00DE0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "standup-loggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.drimmie.standup-loggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/standup-logger.app/Contents/MacOS/standup-logger";
+			};
+			name = Debug;
+		};
+		66C6DB5F22076ECB00DE0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "standup-loggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.drimmie.standup-loggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/standup-logger.app/Contents/MacOS/standup-logger";
+			};
+			name = Release;
+		};
+		66C6DB6122076ECB00DE0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "standup-loggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.drimmie.standup-loggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "standup-logger";
+			};
+			name = Debug;
+		};
+		66C6DB6222076ECB00DE0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "standup-loggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.drimmie.standup-loggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "standup-logger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C6DB2C22076ECB00DE0E76 /* Build configuration list for PBXProject "standup-logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C6DB5822076ECB00DE0E76 /* Debug */,
+				66C6DB5922076ECB00DE0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C6DB5A22076ECB00DE0E76 /* Build configuration list for PBXNativeTarget "standup-logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C6DB5B22076ECB00DE0E76 /* Debug */,
+				66C6DB5C22076ECB00DE0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C6DB5D22076ECB00DE0E76 /* Build configuration list for PBXNativeTarget "standup-loggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C6DB5E22076ECB00DE0E76 /* Debug */,
+				66C6DB5F22076ECB00DE0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C6DB6022076ECB00DE0E76 /* Build configuration list for PBXNativeTarget "standup-loggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C6DB6122076ECB00DE0E76 /* Debug */,
+				66C6DB6222076ECB00DE0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66C6DB3822076ECB00DE0E76 /* standup_logger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66C6DB3922076ECB00DE0E76 /* standup_logger.xcdatamodel */,
+			);
+			currentVersion = 66C6DB3922076ECB00DE0E76 /* standup_logger.xcdatamodel */;
+			path = standup_logger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66C6DB2922076ECB00DE0E76 /* Project object */;
+}
